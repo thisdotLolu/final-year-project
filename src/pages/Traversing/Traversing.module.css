@@ -1,0 +1,110 @@
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+.container *{
+    border: 1px solid white;
+}
+
+.dep, .lat{
+    width:5vw;
+}
+.header{
+    display:flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header div{
+    width: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row1, .row2, .row3, .row4, .row5{
+    display: flex;
+    /* width: 1`0vw; */
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+input{
+    color:black;
+    padding: 5px;
+    width: 5vw;
+}
+
+.row1,.row2, .row3{
+    border-right: 1px solid white;
+}
+
+.row1 div, .row2 div, .row3 div, .row4 div, .row5 div{
+    width:5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.addField{
+    margin-top: 50px;
+}
+
+.solveLat{
+    width:30px;
+    font-size: 0.6rem;
+}
+
+.total_button{
+    display: flex;
+    /* border:1px dashed green; */
+    width:100%;
+    margin-left:0px;
+    margin-top: 20px;
+    /* margin-left: 20px; */
+}
+
+.total_button button{
+    margin-left: 20px;
+}
+
+.errorModal{
+    position: absolute;
+    top:20px;
+    padding: 10px;
+    background-color: lightcoral;
+    color: red;
+    border-radius: 5px;
+    right:10px;
+}
+
+.correctionInner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correctionInner div{
+    width:100%
+}
+
+.modalContainer{
+    width:200px;
+    background-color: black;
+    color: white;
+    position:fixed;
+    /* background-color: black; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    padding: 20px;
+}
+
+.modalContainer input{
+    width: 70%;
+}

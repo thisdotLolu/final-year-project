@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400&family=Nova+Oval&family=Rubik+Wet+Paint&display=swap');
+
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+button{
+    background-color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+
